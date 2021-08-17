@@ -26,4 +26,4 @@ Q*(4, f): 31.36226362 Q*(4, b): 27.14491556
 Q*(5, f): 38.36226362 Q*(5, b): 30.14491556
 
 Find the optimal deterministic policy π:
-The optimal policy is b, f, f, f, f
+The optimal policy is b, f, f, f, f.
