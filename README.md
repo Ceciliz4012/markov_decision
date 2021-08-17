@@ -12,19 +12,12 @@ Assume a discount factor of 0.9.
 # Value Iteration Algorithm
 There are a total of 5 states (1-5). 
 Used the value iteration algorithm to find the optimal value function V^* for each state s.
-V* for 1: 23.31322723 
-V* for 2: 24.17311629 
-V* for 3: 26.95141629 
-V* for 4: 31.36141629 
-V* for 5: 38.36141629
+<img width="410" alt="Screen Shot 2021-08-17 at 3 19 17 PM" src="https://user-images.githubusercontent.com/71328646/129681399-5eed6abf-cf46-4eb6-881c-12dd9d9c2f4b.png">
+
 
 And find the optimal value function for each state-action pair:
-Q*(1, f): 22.42363462 Q*(1, b): 23.31407456
+<img width="410" alt="Screen Shot 2021-08-17 at 3 19 37 PM" src="https://user-images.githubusercontent.com/71328646/129681458-33a7bc71-a718-41e0-a2f7-a8091579576e.png">
 
-Q*(2, f): 24.17396362 Q*(2, b): 24.06421556
-Q*(3, f): 26.95226362 Q*(3, b): 25.25491556
-Q*(4, f): 31.36226362 Q*(4, b): 27.14491556
-Q*(5, f): 38.36226362 Q*(5, b): 30.14491556
 
 Find the optimal deterministic policy π:
 The optimal policy is b, f, f, f, f.
